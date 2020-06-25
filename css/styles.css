@@ -214,6 +214,11 @@ ul {
   padding-bottom: 200px;
   text-align: center;
 }
+.section-one {
+  --bg-color: rgba(47, 48, 58, 0.8);
+  background-image: linear-gradient(var(--bg-color), var(--bg-color)),
+    url(../images/rfff.jpg);
+}
 
 /* Основной текст */
 .section-one-text {
