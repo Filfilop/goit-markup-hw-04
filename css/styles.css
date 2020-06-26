@@ -390,28 +390,49 @@ ul {
   letter-spacing: 0.03em;
 }
 /* John Smith */
+.section-four-john-smith {
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.3);
+}
 
 .section-four-john-smith-img {
   width: 270px;
   height: 260px;
 }
 /* Marta Stewart */
-
+.section-four-marta-stewart {
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.3);
+}
 .section-four-marta-stewart-img {
   width: 270px;
   height: 260px;
 }
 /* Robert Jakis */
+.section-four-robert-jakis {
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.3);
+}
 
 .section-four-robert-jakis-img {
   width: 270px;
   height: 260px;
 }
 /* Martin Doe */
+.section-four-martin-doe {
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.3);
+}
 
 .section-four-martin-doe-img {
   width: 270px;
   height: 260px;
+}
+.section-four-ul {
+  display: flex;
+  margin-left: 30px;
+}
+.section-four-ul li {
+  margin-right: 10px;
+}
+.section-four-proger:hover {
+  color: blue;
 }
 /*Постоянные клиенты*/
 .post-ckient {
@@ -419,11 +440,38 @@ ul {
   list-style: none;
   justify-content: space-between;
 }
+.section-five-post-ckient {
+  border: 1px solid;
+  border-radius: 6px;
+  align-items: center;
+  width: 200px;
+  height: 100px;
+  display: inline-flex;
+  justify-content: center;
+}
+.section-five-post-ckient :hover {
+  color: brown;
+}
+.image-svg-klient {
+  width: 40px;
+  height: 52px;
+}
 
 .post-ckient li {
   margin-left: 30px;
 }
+.image-svg-proger {
+  width: 20px;
+  height: 20px;
+}
 /* ПОДВАЛ */
+.image-svg-proger-footer {
+  width: 20px;
+  height: 20px;
+}
+.footer-social-contact li {
+  margin-right: 20px;
+}
 
 .footer {
   background: #2f303a;
