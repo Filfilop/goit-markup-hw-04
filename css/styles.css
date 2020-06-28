@@ -85,6 +85,7 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
 }
 .head-basic-navigation {
   display: flex;
@@ -98,6 +99,28 @@ ul {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
+}
+.head-navigation-studio .head-nav-portfolion .head-nav-contact {
+  text-decoration: none;
+  position: relative;
+  display: inline-flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: black;
+}
+.head-navigation-studio .head-nav-portfolion .head-nav-contact:hover,
+.current {
+  color: blue;
+}
+.current::after {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  content: "";
+  background-color: blue;
+  height: 4px;
+  width: 100%;
+  border-radius: 2px;
 }
 
 /* студия */
@@ -131,6 +154,13 @@ ul {
   display: flex;
   padding: 0;
 }
+.mail .telephone {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  color: red;
+  margin-right: 20px;
+}
 .head-nav-contact-head {
   margin-left: auto;
 }
@@ -147,6 +177,12 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+.mail:hover {
+  --color2: #2196f3;
+}
+.telephone:hover {
+  --color5: #2196f3;
 }
 .head-navigation-studio:focus,
 .head-navigation-studio:hover {
@@ -440,35 +476,42 @@ ul {
   --color3: #ffffff;
   background-color: #2196f3;
 }
-.section-five-post-ckient .image-svg-klient {
-  width: 20px;
-  height: 20px;
-}
 
 .section-four-proger:hover {
   color: blue;
 }
 /*Постоянные клиенты*/
+
 .post-ckient {
   display: flex;
   list-style: none;
   justify-content: space-between;
 }
+.section-five-client {
+  margin-right: 10px;
+}
 .section-five-post-ckient {
-  border: 1px solid;
-  border-radius: 6px;
-  align-items: center;
-  width: 170px;
-  height: 85px;
   display: inline-flex;
   justify-content: center;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 6px;
+  width: 170px;
+  height: 85px;
+  color: #afb1b8;
 }
-.section-five-post-ckient :hover {
-  color: brown;
+
+.section-five-post-ckient:hover {
+  --color3: #2196f3;
+  --color2: #2196f3;
 }
 .image-svg-klient {
   width: 40px;
   height: 52px;
+}
+.image-svg-klient5 {
+  width: 80px;
+  height: 40px;
 }
 
 .image-svg-proger {
