@@ -390,10 +390,12 @@ ul {
 .section-four-item:not(:first-child) {
   margin-left: 30px;
 }
-/* John Smith */
 .section-four-item {
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  padding-bottom: 24px;
 }
+/* John Smith */
 
 .section-four-john-smith-img {
   width: 270px;
@@ -438,6 +440,11 @@ ul {
   color: #ffffff;
   background-color: #2196f3;
 }
+.section-five-post-ckient .image-svg-klient {
+  width: 20px;
+  height: 20px;
+}
+
 .section-four-proger:hover {
   color: blue;
 }
@@ -472,6 +479,24 @@ ul {
   height: 20px;
 }
 /* ПОДВАЛ */
+.footer-social-contact {
+  list-style: none;
+  display: flex;
+}
+
+.footer-img-social {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+}
+.footer-img-social :hover {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
 .image-svg-proger-footer {
   width: 20px;
   height: 20px;
