@@ -452,6 +452,7 @@ ul {
 .post-ckient {
   display: flex;
   list-style: none;
+  justify-content: space-between;
 }
 .section-five-post-ckient {
   border: 1px solid;
@@ -470,9 +471,6 @@ ul {
   height: 52px;
 }
 
-.post-ckient li {
-  margin-left: 30px;
-}
 .image-svg-proger {
   width: 20px;
   height: 20px;
