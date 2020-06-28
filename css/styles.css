@@ -427,9 +427,23 @@ ul {
 .section-four-ul {
   display: flex;
   margin-left: 30px;
+  list-style: none;
 }
 .section-four-ul li {
   margin-right: 10px;
+}
+.sociaal-icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+
+  width: 44px;
+  height: 44px;
+}
+.sociaal-icon:hover {
+  color: #ffffff;
+  background-color: #2196f3;
 }
 .section-four-proger:hover {
   color: blue;
