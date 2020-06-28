@@ -100,28 +100,6 @@ ul {
   padding-top: 32px;
   padding-bottom: 32px;
 }
-.head-navigation-studio .head-nav-portfolion .head-nav-contact {
-  text-decoration: none;
-  position: relative;
-  display: inline-flex;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: black;
-}
-.head-navigation-studio .head-nav-portfolion .head-nav-contact:hover,
-.current {
-  color: blue;
-}
-.current::after {
-  display: block;
-  position: absolute;
-  bottom: 0;
-  content: "";
-  background-color: blue;
-  height: 4px;
-  width: 100%;
-  border-radius: 2px;
-}
 
 /* студия */
 .head-navigation-studio {
@@ -154,13 +132,7 @@ ul {
   display: flex;
   padding: 0;
 }
-.mail .telephone {
-  display: inline-flex;
-  align-items: center;
-  text-decoration: none;
-  color: red;
-  margin-right: 20px;
-}
+
 .head-nav-contact-head {
   margin-left: auto;
 }
@@ -188,8 +160,8 @@ ul {
 .head-navigation-studio:hover {
   color: #2196f3;
 }
-.head-nav-portfolio:focus,
-.head-nav-portfolio:hover {
+.head-nav-portfolion:focus,
+.head-nav-portfolion:hover {
   color: #2196f3;
 }
 .head-nav-contact:hover,
@@ -227,6 +199,10 @@ ul {
 }
 .mail:hover {
   color: #2196f3;
+}
+
+.image-svg-proger {
+  margin-right: 10px;
 }
 
 /* Первая секция */
@@ -512,6 +488,14 @@ ul {
 .image-svg-klient5 {
   width: 80px;
   height: 40px;
+}
+.image-svg-klient6 {
+  width: 59px;
+  height: 43px;
+}
+.image-svg-klient7 {
+  width: 88px;
+  height: 43px;
 }
 
 .image-svg-proger {
