@@ -389,8 +389,11 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
 }
+.section-four-item:not(:first-child) {
+  margin-left: 30px;
+}
 /* John Smith */
-.section-four-john-smith {
+.section-four-item {
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.3);
 }
 
@@ -399,26 +402,18 @@ ul {
   height: 260px;
 }
 /* Marta Stewart */
-.section-four-marta-stewart {
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.3);
-}
+
 .section-four-marta-stewart-img {
   width: 270px;
   height: 260px;
 }
 /* Robert Jakis */
-.section-four-robert-jakis {
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.3);
-}
 
 .section-four-robert-jakis-img {
   width: 270px;
   height: 260px;
 }
 /* Martin Doe */
-.section-four-martin-doe {
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.3);
-}
 
 .section-four-martin-doe-img {
   width: 270px;
