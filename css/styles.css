@@ -365,9 +365,7 @@ ul {
 .section-four-ul {
   list-style: none;
 }
-.section-four-oll li:not(:first-child) {
-  margin-left: 30px;
-}
+
 .section-four-name {
   color: var(--title-color);
   font-family: Roboto;
