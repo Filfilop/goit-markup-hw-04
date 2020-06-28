@@ -267,7 +267,7 @@ ul {
 }
 
 .section-two-zag {
-  color: var(--title-color);
+  color: var(--titlе-color);
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;
@@ -302,7 +302,7 @@ ul {
 
 /* Чем мы занимаемся */
 .sectione-title {
-  color: var(--title-color);
+  color: var(--titlе-color);
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;
@@ -437,7 +437,7 @@ ul {
   height: 44px;
 }
 .sociaal-icon:hover {
-  color: #ffffff;
+  --color3: #ffffff;
   background-color: #2196f3;
 }
 .section-five-post-ckient .image-svg-klient {
@@ -493,7 +493,7 @@ ul {
   height: 44px;
 }
 .footer-img-social :hover {
-  color: #ffffff;
+  --color3: #ffffff;
   background-color: #2196f3;
 }
 
