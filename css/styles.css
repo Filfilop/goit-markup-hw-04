@@ -649,18 +649,19 @@ ul {
 
 /* ПоРТФОЛИО */
 /* меню */
-.button {
+.section-one-meny {
+  color: #212121;
+  background-color: #f5f4fa;
   font-family: Roboto;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  letter-spacing: 0.03em;
-  background-color: #f5f4fa;
-  color: var(--title-coor);
+  line-height: 1.87;
+  text-decoration: none;
+  padding: 10px 32px;
 }
-.button:hover {
+
+.section-one-meny:hover {
   background-color: #2196f3;
   color: #ffffff;
 }
