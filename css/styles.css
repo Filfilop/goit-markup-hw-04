@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -172,6 +176,7 @@ ul {
 }
 /* телефон */
 .telephone {
+  display: inline-flex;
   text-decoration: none;
   color: #757575;
   font-family: Roboto;
@@ -187,6 +192,7 @@ ul {
 }
 /* почта */
 .mail {
+  display: inline-flex;
   text-decoration: none;
   color: #757575;
   font-family: Roboto;
