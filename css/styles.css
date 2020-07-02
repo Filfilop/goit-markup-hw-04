@@ -177,6 +177,7 @@ ul {
 /* телефон */
 .telephone {
   display: inline-flex;
+  align-items: center;
   text-decoration: none;
   color: #757575;
   font-family: Roboto;
@@ -193,6 +194,7 @@ ul {
 /* почта */
 .mail {
   display: inline-flex;
+  align-items: center;
   text-decoration: none;
   color: #757575;
   font-family: Roboto;
