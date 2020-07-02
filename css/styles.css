@@ -279,8 +279,7 @@ ul {
   background-color: #f5f4fa;
   padding: 25px 100px;
 }
-.image-svg-preim {
-}
+
 .section-two {
   padding-bottom: 0px;
 }
@@ -521,6 +520,7 @@ ul {
 .image-svg-proger {
   width: 20px;
   height: 20px;
+  margin-left: 10px;
 }
 /* ПОДВАЛ */
 .footer-social-contact {
@@ -672,9 +672,12 @@ ul {
   margin-bottom: 50px;
 }
 .porfolio-section-meny li {
-  background-color: #757575;
   margin-left: 30px;
-  text-decoration: none;
+  width: fit-content;
+}
+.porfolio-section-meny-div {
+  background-color: #f5f4fa;
+  padding: 6px 22px;
 }
 /* скрытый заголовок  */
 .visibility-hidden {
@@ -697,11 +700,11 @@ ul {
   font-size: 18px;
   line-height: 1.5;
   letter-spacing: 0.03em;
-  color: #6d0b0b;
+  color: #ffffff;
   text-decoration: none;
 }
 .porfolio-section-two-title {
-  color: var(--title-color);
+  color: #212121;
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;
