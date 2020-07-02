@@ -277,17 +277,21 @@ ul {
 
 .section-two-preim {
   background-color: #f5f4fa;
+  padding: 25px 100px;
 }
 .image-svg-preim {
-  margin-left: 30px;
 }
 .section-two {
   padding-bottom: 0px;
 }
 
 .section-two-block {
+  justify-content: space-between;
   display: flex;
   margin: 0;
+}
+.section-two-block li {
+  width: 270px;
 }
 
 /* внимание */
