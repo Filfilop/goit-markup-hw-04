@@ -686,6 +686,13 @@ ul {
   visibility: hidden;
 }
 /* основные картинки */
+.porfolio-section-two-ollblock-tehno {
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
+}
+.porfolio-section-two-ollblock-tehno:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.3);
+}
 
 .porfolio-section-two-oll {
   list-style: none;
@@ -703,6 +710,15 @@ ul {
   letter-spacing: 0.03em;
   color: #ffffff;
   text-decoration: none;
+}
+.porfolio-section-two-text-two:hover::before {
+  content: "";
+  background-color: rgba(33, 150, 243, 0.9);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 370px;
+  height: 294px;
 }
 .porfolio-section-two-title {
   color: #212121;
@@ -728,6 +744,7 @@ ul {
 /* технокряк */
 .porfolio-section-two-ollblock-tehno {
   width: 370px;
+  height: 404px;
   margin-right: 30px;
   margin-bottom: 30px;
 }
