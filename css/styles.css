@@ -47,6 +47,16 @@ ul {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   padding-bottom: 28px;
 }
+.current::after {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  content: "";
+  background-color: #2196f3;
+  height: 4px;
+  width: 100%;
+  border-radius: 2px;
+}
 
 /* Top Line */
 .conteiner-for-flex {
@@ -117,6 +127,8 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  position: relative;
+  padding-bottom: 20px;
 }
 /* потрфолио */
 .head-nav-portfolion {
@@ -128,6 +140,8 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  position: relative;
+  padding-bottom: 20px;
 }
 /* контакты */
 .head-nav-contact-head-div {
@@ -399,7 +413,7 @@ ul {
 }
 
 .section-four-name {
-  color: var(--title-color);
+  color: #212121;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -649,6 +663,7 @@ ul {
 
 /* ПоРТФОЛИО */
 /* меню */
+
 .section-one-meny {
   color: #212121;
   background-color: #f5f4fa;
@@ -659,11 +674,16 @@ ul {
   line-height: 1.87;
   text-decoration: none;
   padding: 10px 32px;
+  border-radius: 5px;
 }
 
-.section-one-meny:hover {
+.section-meny:hover {
   background-color: #2196f3;
   color: #ffffff;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.3);
+}
+.section-meny {
+  transition-duration: 0.5s;
 }
 
 .porfolio-section-meny {
@@ -688,9 +708,10 @@ ul {
 /* основные картинки */
 .porfolio-section-two-ollblock-tehno {
   box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
+  transition: 300ms ease opacity, 300ms ease transform;
 }
 .porfolio-section-two-ollblock-tehno:hover {
-  transform: translateY(-3px);
+  transform: translateY(-5px);
   box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.3);
 }
 
@@ -711,7 +732,8 @@ ul {
   color: #ffffff;
   text-decoration: none;
 }
-.porfolio-section-two-text-two:hover::before {
+
+.porfolio-section-two-ollblock-tehno:hover::before {
   content: "";
   background-color: rgba(33, 150, 243, 0.9);
   position: absolute;
